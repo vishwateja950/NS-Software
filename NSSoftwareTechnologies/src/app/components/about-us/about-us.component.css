@@ -1,0 +1,49 @@
+.About-cont {
+  width: 100vw;
+  height: 60vh;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-cont1 {
+  width: 50vw;
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.about-head {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #223a66;
+}
+.about-para {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  color: black;
+}
+.mm {
+  color: black;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+.about-btn {
+  height: 50px;
+  background-color: #22008e;
+  color: whitesmoke;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+  border: 2px solid whitesmoke;
+}
+.fa-book-open {
+  font-size: 20px;
+}
+.img4 {
+  width: 40vw;
+  height: 70vh;
+}

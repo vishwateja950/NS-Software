@@ -1,0 +1,32 @@
+nav {
+  width: 100vw;
+  background-color: #ffffff;
+  height: 6vh;
+  align-items: center;
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.logo {
+  width: 90px;
+}
+ul {
+  border-left: 7px;
+}
+li {
+  list-style-type: none;
+  display: inline;
+  padding: 20px;
+  font-size: 20px;
+  align-items: center;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(15, 14, 14);
+  margin: 20px;
+}

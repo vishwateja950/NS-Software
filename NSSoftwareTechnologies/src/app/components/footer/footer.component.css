@@ -1,0 +1,29 @@
+.row {
+  background-color: darkblue;
+  width: 100vw;
+  height: 400px;
+  color: white;
+  margin-top: 10px;
+}
+.row div {
+  margin: 20px;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+.row li {
+  list-style-type: circle;
+}
+@media screen and (min-width: 400px) and (max-width: 779px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+}
+.copy {
+  margin-left: 50%;
+  margin: 20px;
+  text-align: center;
+}

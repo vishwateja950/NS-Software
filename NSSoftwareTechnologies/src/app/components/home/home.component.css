@@ -1,0 +1,51 @@
+.home-cont {
+  background-image: url("https://nssoftwaretechnologies.in/wp-content/uploads/2023/12/n1.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  flex-wrap: wrap;
+  opacity: 1;
+  filter: drop-shadow(0 0 0 blue);
+
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+}
+.home-cont1 {
+  border: 2px solid transparent;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30px;
+  transition: transform 1s;
+  background-color: transparent;
+  border-radius: 10px;
+  justify-content: center;
+}
+.home-cont1:hover {
+  transform: translateX(30px);
+  background-color: black;
+}
+
+.head1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  font-size: 60px;
+}
+.para1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  font-size: 20px;
+}
+.btn {
+  background-color: #0018bb;
+  color: whitesmoke;
+  width: 100px;
+  height: 60px;
+  border-radius: 10px;
+  border: 2px solid whitesmoke;
+  font-size: 18px;
+}

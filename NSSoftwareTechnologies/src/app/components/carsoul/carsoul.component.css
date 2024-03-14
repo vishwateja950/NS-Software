@@ -1,0 +1,45 @@
+.clint div {
+  width: 400px;
+  height: 60px;
+  background-color: darkblue;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin: auto;
+  border: 5px solid silver;
+  margin-top: 100px;
+}
+
+.carousel {
+  width: 80vw;
+  margin-left: 120px;
+}
+.carousel-inner {
+  height: 50vh;
+  display: flex;
+}
+
+.carousel-caption {
+  bottom: 90px;
+}
+button {
+  background-color: #223a66;
+  color: whitesmoke;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  border: 1px solid transparent;
+}
+h5 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 40px;
+  color: whitesmoke;
+}
+p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 16px;
+}

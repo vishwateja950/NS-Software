@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.pp {
+  color: whitesmoke;
+  height: 100px;
+  width: 10px;
+}
+
+.conatiner {
+  background-color: rgb(44, 151, 228);
+  width: 100vw;
+  height: 30vh;
+  flex-wrap: wrap;
+}
+nav {
+  background-color: #223a66;
+  width: 100vw;
+  height: 6vh;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.ll {
+  border-left: 7px;
+}
+li {
+  list-style-type: none;
+  display: inline;
+  padding: 20px;
+  font-size: 20px;
+  align-items: center;
+
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin: 20px;
+}
+.fa-solid {
+  color: whitesmoke;
+  font-size: 18px;
+}
+.fa-brands {
+  color: whitesmoke;
+  font-size: 18px;
+}
